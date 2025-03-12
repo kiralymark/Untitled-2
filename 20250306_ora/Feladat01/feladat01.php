@@ -1,9 +1,9 @@
 <?php
-$sampleString = "Hello, welcome to PHP programming!";       // ? extra: convert from uppercase to lowercase 
+$sampleString = "Hello, welcome to PHP programming!";
 
 echo "Enter a character to search: ";
 
-$char = trim(readline("")); // Get input and remove extra spaces
+$char = trim(readline(""));
 
 if (strlen($char) !== 1) {
     echo "Please enter a single character.";
